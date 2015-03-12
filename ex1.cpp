@@ -1,13 +1,47 @@
 #include <iostream>
 #include <vector>
+#include <stdio.h>
+#include <errno.h>
+#include <unistd.h>
 
 using namespace std;
+
 
 int factorial(int x){
      int y;
      if(x <= 1){ return 1;}
           y = x* factorial(x-1);
           return y;
+}
+
+void segfault1(){
+
+     char ten[10];
+     //how big am I?
+     for(int i =0; i<=10; ++i){
+          cout << "loop: " << i << endl;
+     }
+     cout << "looks like we went out of bounds" << endl;
+
+}
+
+int segfault2(int x){
+
+     //where's the base case yo?
+     return segfault2(1);
+
+}
+
+void simple_fork(){
+     int pid = fork();
+     if(pid == -1){ perror("error in fork");}
+
+     else if(pid == 0){
+          cout <<"CHILD says 'Nooooooo!!!' "<< endl;
+     }
+     else if(pid > 0){
+          cout <<"PARENT says 'I am your father' " << endl;
+     }
 }
 
 int initialize(){
