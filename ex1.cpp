@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <unistd.h>
-
+#include <vector>
 using namespace std;
 
 
@@ -16,10 +16,14 @@ int factorial(int x){
 
 void segfault1(){
 
-     char ten[10];
+//     char* ten = "goodbye world";
+     //vector<char> ten(10);
      //how big am I?
-     for(int i =0; i<=10; ++i){
-          cout << "loop: " << i << endl;
+     int ten[10];
+     int twenty = 20;
+     for(int i =0; i < twenty; ++i){
+          ten[i] = i;
+          cout << "loop: " << ten[i] << endl;
      }
      cout << "looks like we went out of bounds" << endl;
 
@@ -128,7 +132,9 @@ while (1){
      cout <<"Enter 2 to find to look at an unitialized var " << endl;
      cout <<"Enter 3 to run sort on unitialized var's" << endl;
      cout <<"Enter 4 to find out if a year is a leap year" << endl;
-
+     cout <<"Enter 5 to see a segfault " << endl;
+     cout <<"Enter 6 to see another common segfault" << endl;
+     cout <<"Enter 7 to see some processes" << endl;
 
      cout << "Enter a number and we'll run a function: ";
      cin >> number;
@@ -155,6 +161,19 @@ while (1){
      }
      if(number == 4){
           leap_year();
+     }
+
+     if(number == 5){
+          cout <<"This will produce a segfault" << endl;
+          segfault1();
+     }
+     if(number == 6){
+          cout <<"This too will produce a segfault" << endl;
+          segfault2(3);
+     }
+     if(number == 7){
+          cout <<"Let's use a system call and see some processes" << endl;
+          simple_fork();
      }
      cout << endl;
      cout << endl;
