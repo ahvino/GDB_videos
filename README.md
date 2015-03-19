@@ -12,11 +12,11 @@ What is GDB
 
 Commands used in Tutorial:
 
-| Commands  | Alias  | Example      | Description                                            |
-|-----------|--------|--------------|--------------------------------------------------------|
-| `run`     | `r`    | `(gdb) r`    | runs gdb on the given file                             |
-| `list`    | `l`    | `(gdb) l`    | lists 10 lines by default                              |
-| `list`    | `l #`  | `(gdb) l 20` | lists lines centered around #,where # is a line number |
+| Commands  | Alias | Example | Description |
+|-----------|---------|--------------|--------------------------------------------------------|
+| `run`     | `r`     | `(gdb) r`    | runs gdb on the given file                             |
+| `list`    | `l`     | `(gdb) l`    | lists 10 lines by default                              |
+| `list`    | `l #`   | `(gdb) l 20` | lists lines centered around #,where # is a line number |
 
 
 GDB Introduction
