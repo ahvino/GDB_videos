@@ -17,10 +17,13 @@ In this introduction video, we'll go over setting up GDB, as well as using some 
 
 basic GDB commands.
 
-| commands     | Alias  |  Example      | Description                                                |  |--------------|------- |---------------|------------------------------------------------------------|
+
+| commands     | Alias  | Example       | Description                                                |
+|--------------|:------:|:-------------:|-----------------------------------------------------------:|
 | `run`        | `r`    | (gdb) `r`     | runs gdb on the given file <br> fdwfew                     |
 | `list`       | `l`    | (gdb) `l`     | lists 10 lines by default                                  |
 | `list`       | `l #`  | (gdb) `l 20`  | lists lines centered around #,<br>where x is a line number |
+
 
 `run (r)`
 
