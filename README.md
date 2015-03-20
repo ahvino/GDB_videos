@@ -1,5 +1,12 @@
 # GDB Video Tutorial
 
+Intereseted in learning to about GDB? 
+Well, you might be interested in this tutorial.
+GDB is used amongst professionals, hobbyists and beginning level coders across the globe.
+Debugging can be quite labor intensive, luckily GDB can make that struggle a whole lot easier.
+In this tutorial we'll go over some basic to advanced debugging techniques using GDB.
+I hope in the end you'll find that debugging without GDB to be a thing you once did in the past.
+
 Author
 ------
 Selik Samai
