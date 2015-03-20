@@ -10,9 +10,21 @@ Anton @ https://github.com/antonvinod/GDB_videos/issues/new
 
 What is GDB
 ====
+Well, GDB is just software you can use to debug your code.
+You can use GDB on a number of different languages. 
+
+How do I get GDB
+===
+Well, GDB is open source software.
+It's actually the official GNU project debugger.
+You can find out more at https://www.gnu.org/software/gdb/
 
 Commands used in Tutorial:
 ===
+there are quite a bit of commands supported by GDB;
+ however, we'll use only a select few in the tutorial.
+These are all the commands we'll look at in the tutorial.
+Keep in mind though, there are a lot more.
 
 | Commands(Alias)| Example | Description |
 |-----------|--------------|----------------------------|
