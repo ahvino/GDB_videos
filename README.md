@@ -31,8 +31,8 @@ Keep in mind though, there are a lot more.
 | `run(r)`  | `(gdb) r`    | runs gdb on the given file |
 | `list(l)` | `(gdb) l`    | lists 10 lines by default  |
 | `list(l)` | `(gdb) l 20` | lists lines centered around #,where # is a line number |
-| `list(l)` | `gdb) l f(x)`| lists lines centered around function f(x)|
-
+| `list(l)` | `(gdb) l f(x)`| lists lines centered around function f(x)|
+| `print(p)`| `(gdb) p i ` | print a variable, where i is the variable|
 GDB Introduction
 ----------------
 In this introduction video, we'll go over setting up GDB, as well as using some very
