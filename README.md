@@ -12,11 +12,6 @@ What is GDB
 ====
 Well, GDB is just software you can use to debug your code.
 You can use GDB on a number of different languages. 
-
-How do I get GDB
-===
-Well, GDB is open source software.
-It's actually the official GNU project debugger.
 You can find out more at https://www.gnu.org/software/gdb/
 
 Commands used in Tutorial:
