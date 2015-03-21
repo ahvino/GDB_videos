@@ -42,7 +42,7 @@ GDB Introduction
 ----------------
 In this introduction video, we'll go over setting up GDB, as well as using some very
 
-<a href="https://www.youtube.com/watch?v=ufHO5rV3E24" target="_blank"><img src="https://i.ytimg.com/vi/ufHO5rV3E24/1.jpg?time=1426804289907" 
+<a href="https://www.youtube.com/watch?v=opJGK9OQ9wg&feature=youtu.be" target="_blank"><img src="https://i.ytimg.com/vi/opJGK9OQ9wg/1.jpg?time=1426903782848" 
 alt="GDB_Intro" width="480" height="280" border="10" /></a>
 
 
