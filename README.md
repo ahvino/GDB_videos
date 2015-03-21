@@ -7,14 +7,6 @@ Debugging can be quite labor intensive, luckily GDB can make that struggle a who
 In this tutorial we'll go over some basic to advanced debugging techniques using GDB.
 I hope in the end you'll find that debugging without GDB to be a thing you once did in the past.
 
-Author
-------
-Selik Samai
-
-If you have any recommendations or feedback, please direct them to
-
-Anton @ https://github.com/antonvinod/GDB_videos/issues/new
-
 What is GDB
 ====
 Well, GDB is just software you can use to debug your code.
