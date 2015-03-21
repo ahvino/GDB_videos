@@ -50,14 +50,6 @@ basic GDB commands.
 
 
 
-GDB with Breakpoints
---------------------
+GDB with fork()
+---------------
 
-GDB with Segfaults
-------------------
-
-GDB with Backtrace and Watch
-----------------------------
-
-GDB on Processes
-----------------
