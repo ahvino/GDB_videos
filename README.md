@@ -27,6 +27,12 @@ Keep in mind though, there are a lot more.
 | `list(l)` | `(gdb) l 20` | lists lines centered around #,where # is a line number |
 | `list(l)` | `(gdb) l f(x)`| lists lines centered around function f(x)|
 | `print(p)`| `(gdb) p i ` | print a variable, where i is the variable|
+| `set var` | `(gdb) set var x = #` | Sets variable x to value right of `=`|
+| `delete` | `(gdb) d `| used to delete breakpoints|
+| `backtrace(bt)`| `(gdb) bt` | |outputs summary of calls to current location|
+| `quit(q)` | `(gdb)` q | used to quit gdb|
+
+
 GDB Introduction
 ----------------
 In this introduction video, we'll go over setting up GDB, as well as using some very
@@ -34,7 +40,6 @@ In this introduction video, we'll go over setting up GDB, as well as using some 
 <a href="https://www.youtube.com/watch?v=ufHO5rV3E24" target="_blank"><img src="https://i.ytimg.com/vi/ufHO5rV3E24/1.jpg?time=1426804289907" 
 alt="GDB_Intro" width="480" height="280" border="10" /></a>
 
-In this video, we'll go over `run(r)`, `list(l)` and `quit(q)` as well as setting
 
 up GDB.
 
