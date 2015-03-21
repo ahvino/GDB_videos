@@ -21,16 +21,19 @@ These are all the commands we'll look at in the tutorial.
 Keep in mind though, there are a lot more.
 
 | Commands(Alias)| Example | Description |
-|-----------|--------------|----------------------------|
+|:-----------:|:--------------:|:----------------------------:|
+| `quit(q)` | `(gdb)` q | used to quit gdb|
+| `delete` | `(gdb) d `| used to delete breakpoints|
+| `continue(c)`|`(gdb) c`| continue running program|
 | `run(r)`  | `(gdb) r`    | runs gdb on the given file |
 | `list(l)` | `(gdb) l`    | lists 10 lines by default  |
-| `list(l)` | `(gdb) l 20` | lists lines centered around #,where # is a line number |
-| `list(l)` | `(gdb) l f(x)`| lists lines centered around function f(x)|
 | `print(p)`| `(gdb) p i ` | print a variable, where i is the variable|
+| `list(l)` | `(gdb) l f(x)`| lists lines centered around function f(x)|
+| `watch` | `(gdb) watch var` | prompts user when watch var has changed|
 | `set var` | `(gdb) set var x = #` | Sets variable x to value right of `=`|
-| `delete` | `(gdb) d `| used to delete breakpoints|
 | `backtrace(bt)`| `(gdb) bt` | |outputs summary of calls to current location|
-| `quit(q)` | `(gdb)` q | used to quit gdb|
+| `list(l)` | `(gdb) l 20` | lists lines centered around #,where # is a line number |
+|`set follow-fork-mode`| `(gdb)set follow-fork-mode w`| follow `w` process, `w` is (child/parent)|
 
 
 GDB Introduction
